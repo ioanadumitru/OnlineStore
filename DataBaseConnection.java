@@ -276,7 +276,7 @@ public class DataBaseConnection {
         try
         {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/magazinonline", "root","Afaraploua19");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/magazinonline", "root","root");
                 System.out.println("con successful");
             state = con.createStatement();
             System.out.println("con successful");
